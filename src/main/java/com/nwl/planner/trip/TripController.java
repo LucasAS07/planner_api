@@ -16,7 +16,7 @@ public class TripController {
     private ParticipantService participantService;
 
     @Autowired
-    private TripRpository repository;
+    private TripRepository repository;
 
     @PostMapping
     public ResponseEntity<String> createTrip(@RequestBody TripRequestPayLoad payLoad){
